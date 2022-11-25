@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class Revolution : MonoBehaviour {
     float timeCounter = 0;
+    float speed;
     // Start is called before the first frame update
     void Start()
     {
-        
+        speed = 2;
     }
 
     // Update is called once per frame
     void Update()
     {
-        timeCounter += Time.deltaTime;
+        timeCounter += (Time.deltaTime/speed);
         
         float x = Mathf.Cos(timeCounter);
         float y = 0;
