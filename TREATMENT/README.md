@@ -1,4 +1,4 @@
-#Treatment process for the Microsoft Hololens 2 based on CDR MVP 2 and discussions after CDR.#
+# Treatment process for the Microsoft Hololens 2 based on CDR MVP 2 and discussions after CDR. 
 
 First rough layout listed below.
 
@@ -17,7 +17,7 @@ If for some reason the angle can not be achieved within the given time (15-25 se
 The error message appears so that anyone who does not have enough body control to match the angle is suggested to see a medical professional immediately.
 
 ----------
-##Switching Scenes
+## Switching Scenes
 
 To switch scenes, all scenes first need to be added into the build.
 
@@ -43,9 +43,9 @@ For more on scene switching see attached resource below.
 
 ----------
 
-##Change Log : 
+## Change Log : 
 
-###TODO:
+### TODO:
 
 REMEMBER TO COMMENT EVERYTHING
 
@@ -53,7 +53,7 @@ Mirror Scene 1, 2, 3 and 4 to have a complete treatment process
 
 Make a fade between scenes
 
-###Research:
+### Research:
 
 Implement Speech Recognition to choose language?
 
@@ -63,9 +63,9 @@ https://support.microsoft.com/en-us/windows/use-voice-recognition-in-windows-83f
 
 https://www.youtube.com/watch?v=o4GV-EbnMfI&ab_channel=FauquierENT
 
-###DONE:
+### DONE:
 
-####Audio Recordings
+#### Audio Recordings
 
 Record Audio : Scene 0 : “You are having trouble completing this treatment process, we recommend you contact a medical professional”
 
@@ -91,7 +91,7 @@ FIX NEGATIVE EDGE ON Record Audio : Scene 1 : Angle matched : “Perfect”
 
 Implement 30 second timer that defaults to “Call the hospital” if patient does not align within the time
 
-####Finish Scene 1R
+#### Finish Scene 1R
 
 Input countdown timer when correct angle is achieved
 
@@ -111,7 +111,7 @@ Implement audio inside scene
 
 Implement audio to confirm angle
 
-####Finish Scene 2R
+#### Finish Scene 2R
 	
 Input countdown timer when correct angle is achieved
 
@@ -133,7 +133,7 @@ Implement the arrows for direction
 
 Animate the arrows
 
-####Finish Scene 3R
+#### Finish Scene 3R
 	
 Input countdown timer when correct angle is achieved
 
@@ -153,7 +153,7 @@ Implement audio inside scene
 
 Implement audio to confirm angle
 
-####Finish Scene 4R
+#### Finish Scene 4R
 
 Input countdown timer when correct angle is achieved
 	
@@ -173,13 +173,18 @@ Implement audio inside scene
 
 Implement audio to confirm angle
 
-###WILL NOT DO:
+### WILL NOT DO:
 
 Foster Maneuver : Too complex without outside assistance
 
 ----------
 
-##Resources : https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.LoadScene.html
+## Resources
 
-Scene Change Reference : https://www.youtube.com/watch?v=OmobsXZSRKo&ab_channel=Tarodev
-Scene Change Reference : https://www.youtube.com/watch?v=RPvlK4sFVCM&t=223s&ab_channel=iC7Zi
+https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.LoadScene.html
+
+## Scene Change Reference 
+
+https://www.youtube.com/watch?v=OmobsXZSRKo&ab_channel=Tarodev
+
+https://www.youtube.com/watch?v=RPvlK4sFVCM&t=223s&ab_channel=iC7Zi
