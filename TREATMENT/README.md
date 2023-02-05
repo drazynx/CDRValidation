@@ -1,4 +1,4 @@
-#Treatment process for the Microsoft Hololens 2 based on CDR MVP 2 and discussions after CDR.
+#Treatment process for the Microsoft Hololens 2 based on CDR MVP 2 and discussions after CDR.#
 
 First rough layout listed below.
 
