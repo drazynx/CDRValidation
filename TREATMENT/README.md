@@ -14,6 +14,9 @@ There is a 4 second countdown one the angle is achieved to automatically advance
 
 If for some reason the angle can not be achieved within the given time (15-25 seconds for most scenes) the user will be kicked out of the treatment cycle and a error/help screen will appear.
 
+![Screenshot 2023-02-05 142510](https://user-images.githubusercontent.com/93949561/216846910-f69e7757-febf-4cc9-b25f-92295d4fb8a0.jpg)
+
+
 The error message appears so that anyone who does not have enough body control to match the angle is suggested to see a medical professional immediately.
 
 ----------
